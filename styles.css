@@ -314,6 +314,7 @@ hr {
     /* padding-bottom:5%; */
     background-image: url('images/bg-img.png');
     height: 435px;
+
 }
 
 .project h2 {
@@ -381,4 +382,26 @@ hr {
 
 .first-project ~ .project {
     padding-bottom: 5%;
+}
+
+/* Collaboration Animation work */
+
+.project button:hover {
+  transform:  scale(1.05);
+  animation: color-change 2s;
+  animation-iteration-count: 1;
+  background: rgb(244, 243, 243);
+  color: #ff6b00;
+  border-radius: 8px;
+}
+
+@keyframes color-change {
+    from {
+      background: #ff6b00;
+      color: #fff;
+    }
+    to {
+      background: rgb(244, 243, 243);
+      color: #ff6b00;
+    }
 }
