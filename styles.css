@@ -199,7 +199,7 @@ a {
     align-items: center;
     justify-content: center;
     padding-left: 1.7rem;
-    flex-grow: 1;   
+    flex-grow: 1;
 }
 
 .hey-there {
@@ -209,7 +209,8 @@ a {
     padding-left: 4.5rem;
     /* width: 566px; */
 }
-.corner-img{
+
+.corner-img {
     flex-grow: 5;
     background-image: url('images/Illustration-header-nd.png');
     background-repeat: no-repeat;
@@ -255,6 +256,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 50px;
+    margin: 132px 0;
 }
 
 .recent-work-content {
@@ -278,32 +280,79 @@ hr {
     width: 60%;
 }
 
-/* .grid-container{
-    display: inline-grid;
-    gap: 10px;
+.multi-post-stories {
+    display: flex;
+    justify-content: start;
+    padding-left: 8%;
+}
+
+.multi-post-stories img {
+    width: 684px;
+    padding-right: 24px;
+}
+
+.multi-post-stories h1 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+}
+
+.multi-post-stories p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 24px 0;
+    color: #091E42;
     width: 80%;
-    margin-left: 10%;
-    
 }
-.grid-item-img{
-    grid-column:1/4 ;
-    border: 1px solid blue;
-   
+
+.container-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 327px;
+    margin-top: 12px;
 }
-.grid-item-img img{
-    border: 1px solid red;
-    width: 100%;
+
+.container-list li {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+    text-align: center;
 }
-.grid-item-txt{
-    grid-column: 5/10;
-} */
+
+.multi-post-stories button {
+    padding: 12pxpx;
+    margin-top: 24px;
+    width: 124px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    background: #ff6b00;
+    color: aliceblue;
+    border: none;
+}
+
+.multi-post-stories button:hover {
+    border: 1px solid #ff6b00;
+    background-color: #fbbd90;
+    color: #F55800;
+}
 
 .project-container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     width: 90.5%;
     margin-left: 8%;
-    margin-top: 20px;
+    margin-top: 24px;
     gap: 20px;
 }
 
@@ -379,6 +428,231 @@ hr {
     /* margin-top: 22px; */
 }
 
-.first-project ~ .project {
+.first-project~.project {
     padding-bottom: 5%;
+}
+
+.card2 {
+    background-image: url('images/grid-img-.png');
+}
+
+.card3 {
+    background-image: url('images/grid-img2.png');
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 9% 0 9%;
+    gap: 12px;
+    background-color: #262626;
+    margin-top: 130px;
+}
+
+.crnr-img {
+    position: relative;
+    right: 0;
+    left: 54%;
+    top: -210px;
+}
+
+.about-me hr {
+    width: 100%;
+}
+
+.about-me h1 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: 0.3700000047683716px;
+    text-align: left;
+    color: #F55800;
+}
+
+.about-me p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 12px;
+    color: #fff;
+    width: 566px;
+}
+
+.see-project-btn {
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    background: #F55800;
+    color: aliceblue;
+    border: none;
+    float: left;
+    margin-top: 24px;
+}
+
+
+.about-me-buttom h1 {
+    font-family: 'InaiMathi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    /* margin-top: 131.73px; */
+}
+
+.about-me-buttom img {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    margin-top: 10px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 124px 0 124px 0;
+}
+
+.about-me-buttom ul li {
+    padding: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
+}
+
+.buttom-h1 {
+    margin-top: 0;
+}
+
+.buttom h1 {
+    margin: 0 !important;
+}
+
+.buttom ul {
+    margin: 0 !important;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 24px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-left: 10%;
+}
+.contact-form-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-form-bottom ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    width: 455px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"]  {
+    margin: 73px 20px 39px 0;
+    border: none;
+    border-bottom: 1px solid #979493 !important;
+    width: 40%;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;
+}
+
+.contact-form textarea {
+    background-color: #fbf8f7;
+    padding: 12px;
+    width: 90%;
+    color: gray;
+    border: none;
+}
+
+.contact-form button {
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #F55800;
+    width: 131px;
+    height: 48px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin: 36px auto 0 auto;
+}
+
+.contact-form-bottom hr {
+    margin-top: 124px;
+    width: 100% !important;
+}
+.contact-form-bottom img{
+    width: 40px;
+}
+.contact-form ul {
+    color: #091e42;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+body{
+    padding-bottom: 0 !important;
+}
+
+/* Form validation code by Imran */
+
+input[type=text]:invalid:focus,
+input[type=email]:invalid:focus {
+    background-color: pink;
+    border: 1px solid red;
+    outline: none;
+}
+
+input[type=text]:valid:focus,
+input[type=email]:valid:focus {
+    background-color: white;
+    border: 1px solid green;
+}
+
+.contact-form button:hover {
+    background-color: lightsalmon;
+}
+
+.contact-form button:active {
+    background-color: red;
 }
