@@ -201,13 +201,15 @@ a {
     padding-left: 1.7rem;
     flex-grow: 1;   
 }
+.social-media img:hover{
+    transform: rotate(90deg);
+}
 
 .hey-there {
     flex-grow: 4;
     display: flex;
     flex-direction: column;
     padding-left: 4.5rem;
-    /* width: 566px; */
 }
 .corner-img{
     flex-grow: 5;
@@ -228,8 +230,15 @@ a {
     line-height: 113%;
     color: #F55800;
     margin-bottom: 12px;
+    animation-name: intro;
+    animation-duration: 4s;
 }
-
+@keyframes intro {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: #F55800;}
+  }
 .hey-there h2 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
